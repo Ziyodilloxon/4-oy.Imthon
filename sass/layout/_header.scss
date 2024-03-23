@@ -1,0 +1,106 @@
+.bg_img {
+  width: 100%;
+  background-color: #34c9b6;
+  margin-bottom: 250px;
+}
+.header__nav_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px !important;
+}
+.header__nav_ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  a:hover {
+    color: #3f9c8f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}
+
+.left__side {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  p {
+    color: #ffffff;
+    margin-bottom: 22px;
+  }
+}
+
+.btns {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  .first {
+    width: 153px;
+    height: 55px;
+    border: none;
+    color: #ffffff;
+    background-color: #81defa;
+    border-radius: 4px;
+  }
+  .first:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease-out;
+  }
+  .second {
+    width: 260px;
+    height: 55px;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  .second:hover {
+    background-color: #81defa;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.right__side {
+  background-image: url(../../static/img/LOREM_PICSUM.jpg);
+  width: 235px;
+  height: 435px;
+  border: none;
+  border-radius: 11px;
+  color: #ffffff;
+  position: absolute;
+  right: 9px;
+  top: 30px;
+  button {
+    position: relative;
+    top: 329px;
+    left: 60px;
+    width: 118px;
+    height: 35px;
+    border-radius: 26px;
+    border: #34c9b6;
+    background-color: #34c9b6;
+    color: #ffffff;
+  }
+  button:hover {
+    color: #34c9b6;
+    background-color: #ffffff;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+}
+
+.header__div {
+  position: relative;
+}
